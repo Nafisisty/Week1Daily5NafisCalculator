@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2dp"
+    android:columnCount="5"
+    android:rowCount="6">
+
+    <Button
+        android:id="@+id/btn_Square"
+        android:text="x^2"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Log"
+        android:text="lg"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Lan"
+        android:text="ln"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_FirstBracketStart"
+        android:text="("
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_FastBracketEnd"
+        android:text=")"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_AllClear"
+        android:text="AC"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Clear"
+        android:text="C"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+
+    <Button
+        android:id="@+id/btn_Percentage"
+        android:text="%"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Divide"
+        android:text="/"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Multiply"
+        android:text="X"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Factorial"
+        android:text="X!"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Seven"
+        android:text="7"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Eight"
+        android:text="8"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Nine"
+        android:text="9"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Subtraction"
+        android:text="-"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_OneByX"
+        android:text="1/X"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Four"
+        android:text="4"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Five"
+        android:text="5"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:id="@+id/btn_Six"
+        android:text="6"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Plus"
+        android:text="+"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+
+    <Button
+        android:id="@+id/btn_TenSquare"
+        android:text="10^2"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_One"
+        android:text="1"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Two"
+        android:text="2"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:id="@+id/btn_Three"
+        android:text="3"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Equals"
+        android:text="="
+        style="@style/styleEqualBtnLand"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill_vertical"
+        android:layout_rowSpan="2"/>
+
+    <Button
+        android:id="@+id/btn_Pie"
+        android:text="π"
+        style="@style/styleFuncBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Dot"
+        android:text="."
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btn_Zero"
+        android:text="0"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+    <Button
+        android:id="@+id/btn_DoubleZero"
+        android:text="00"
+        style="@style/styleNumberBtnLand"
+        android:layout_columnWeight="1"/>
+
+
+
+</GridLayout>

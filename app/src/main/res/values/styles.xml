@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--For Potratit Mode-->
+    <style name="styleFuncBtn">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:textColor">@color/colorFuncButtonTxt</item>
+        <item name="android:background">@color/colorFuncButtonBG</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+
+    </style>
+
+    <style name="styleNumberBtn">
+        <item name="android:textSize">40sp</item>
+        <item name="android:minHeight">80dp</item>
+        <item name="android:textColor">@color/colorNumButtonTxt</item>
+        <item name="android:background">@color/colorNumButtonBG</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+    <style name="styleEqualBtn">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/colorEqlButtonTxt</item>
+        <item name="android:background">@color/colorEqlButtonBG</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+    </style>
+
+
+    <!--For Landscape Mode-->
+    <style name="styleFuncBtnLand">
+        <item name="android:textSize">20sp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textColor">@color/colorFuncButtonTxt</item>
+        <item name="android:background">@color/colorFuncButtonBG</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+
+    </style>
+
+    <style name="styleNumberBtnLand">
+        <item name="android:textSize">20sp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:textColor">@color/colorNumButtonTxt</item>
+        <item name="android:background">@color/colorNumButtonBG</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <style name="styleEqualBtnLand">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorEqlButtonTxt</item>
+        <item name="android:background">@color/colorEqlButtonBG</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+</resources>
