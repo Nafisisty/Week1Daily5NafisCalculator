@@ -105,23 +105,28 @@ public class MainActivity extends AppCompatActivity {
 
         switch (view.getId()) {
             case R.id.btn_Clear:
+                lastFunc = "+";
+                result = 0;
+                userInput = 0;
+                display_userInput.setText("");
+                display_result.setText("");
                 break;
 
             case R.id.btn_Percentage:
+                userInput = 0;
                 display_userInput.setText(display_userInput.getText() + "%");
+                displayResult(Utilities.percentage(getResult()));
                 break;
 
             case R.id.btn_Divide:
                 userInput = 0;
                 display_userInput.setText(display_userInput.getText() + "/");
-                result = Utilities.divide(getResult(), userInput);
                 lastFunc = "/";
                 break;
 
             case R.id.btn_Multiply:
                 userInput = 0;
                 display_userInput.setText(display_userInput.getText() + "*");
-                result = Utilities.multiply(getResult(), userInput);
                 lastFunc = "*";
                 break;
 
@@ -142,7 +147,6 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.btn_Equals:
-
                 break;
         }
     }
@@ -154,9 +158,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case "-" : displayResult(Utilities.sub(getResult(), userInput));
                 break;
-            case "*" : displayResult(Utilities.multiply(getResult(), userInput));
+            case "*" : displayResult(Utilities.multiply(Double.valueOf(display_result.getText().toString()), userInput));
                 break;
-            case "/" : displayResult(Utilities.divide(getResult(), userInput));
+            case "/" : displayResult(Utilities.divide(Double.valueOf(display_result.getText().toString()), userInput));
                 break;
 //            case "=" : displayResult(result);
 //                break;
